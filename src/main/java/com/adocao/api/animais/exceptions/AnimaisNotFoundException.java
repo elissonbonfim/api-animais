@@ -5,10 +5,6 @@
  */
 package com.adocao.api.animais.exceptions;
 
-import org.springframework.http.HttpStatus;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.ResponseStatus;
-
 /**
  *
  * @author elisson
@@ -16,6 +12,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 public class AnimaisNotFoundException extends RuntimeException {
 
     public AnimaisNotFoundException(Long animais_id) {
-        super("{\"id\":" + animais_id +"," + "\"message\":\"não existe.\"}");
+        super("{\"animais_id\":" + animais_id +"," + "\"message\":\"não existe.\"}");
     }
 }

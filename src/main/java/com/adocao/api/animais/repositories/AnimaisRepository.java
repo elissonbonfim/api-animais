@@ -19,4 +19,6 @@ import org.springframework.stereotype.Repository;
 public interface AnimaisRepository extends JpaRepository<AnimaisJPA, Long> {
 
     Page<AnimaisJPA> findByNomeContainingIgnoreCase(String nome, Pageable pageable);
+    
+    Page<AnimaisJPA> findByTipoIgnoreCase(String tipo, Pageable pageable);
 }

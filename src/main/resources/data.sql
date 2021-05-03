@@ -15,14 +15,14 @@ INSERT INTO tb_animais (pelos,idade,castracao,nome,porte,sexo,descricao,tipo) VA
 INSERT INTO tb_animais (pelos,idade,castracao,nome,porte,sexo,descricao,tipo) VALUES ('grande','desconhecido','realizada','pedro','pequeno','macho','pendente','cachorro');
 INSERT INTO tb_animais (pelos,idade,castracao,nome,porte,sexo,descricao,tipo) VALUES ('curto','6 anos','realizada','maria','medio','femea','pendente','cachorro');
 INSERT INTO tb_animais (pelos,idade,castracao,nome,porte,sexo,descricao,tipo) VALUES ('medio','1 mes','pendente','mimi','pequeno','femea','pendente','cachorro');
-INSERT INTO tb_animais (pelos,idade,castracao,nome,porte,sexo,descricao,tipo) VALUES ('medio','9 meses','realizada','leti','pequeno','femea','pendente','cachorro');
+INSERT INTO tb_animais (pelos,idade,castracao,nome,porte,sexo,descricao,tipo) VALUES ('medio','9 meses','realizada','leti','pequeno','femea','pendente','gato');
 INSERT INTO tb_animais (pelos,idade,castracao,nome,porte,sexo,descricao,tipo) VALUES ('grande','7 anos','pendente','joca','pequeno','macho','pendente','cachorro');
 INSERT INTO tb_animais (pelos,idade,castracao,nome,porte,sexo,descricao,tipo) VALUES ('grande','6 anos','realizada','lepi','grande','femea','pendente','cachorro');
-INSERT INTO tb_animais (pelos,idade,castracao,nome,porte,sexo,descricao,tipo) VALUES ('grande','1 mes','pendente','rita','grande','femea','pendente','cachorro');
+INSERT INTO tb_animais (pelos,idade,castracao,nome,porte,sexo,descricao,tipo) VALUES ('grande','1 mes','pendente','rita','grande','femea','pendente','gato');
 INSERT INTO tb_animais (pelos,idade,castracao,nome,porte,sexo,descricao,tipo) VALUES ('grande','1 ano','realizada','titi','pequeno','macho','pendente','cachorro');
 INSERT INTO tb_animais (pelos,idade,castracao,nome,porte,sexo,descricao,tipo) VALUES ('curto','1 ano','realizada','teco','grande','macho','pendente','cachorro');
 INSERT INTO tb_animais (pelos,idade,castracao,nome,porte,sexo,descricao,tipo) VALUES ('grande','2 anos','realizada','malu','grande','femea','pendente','cachorro');
-INSERT INTO tb_animais (pelos,idade,castracao,nome,porte,sexo,descricao,tipo) VALUES ('medio','2 anos','pendente','lulu','grande','femea','pendente','cachorro');
+INSERT INTO tb_animais (pelos,idade,castracao,nome,porte,sexo,descricao,tipo) VALUES ('medio','2 anos','pendente','lulu','grande','femea','pendente','gato');
 INSERT INTO tb_animais (pelos,idade,castracao,nome,porte,sexo,descricao,tipo) VALUES ('grande','1 ano','pendente','lucy','pequeno','femea','pendente','cachorro');
 INSERT INTO tb_animais (pelos,idade,castracao,nome,porte,sexo,descricao,tipo) VALUES ('grande','2 meses','realizada','quico','grande','macho','pendente','cachorro');
 INSERT INTO tb_animais (pelos,idade,castracao,nome,porte,sexo,descricao,tipo) VALUES ('curto','7 anos','realizada','xico','grande','macho','pendente','cachorro');
