@@ -29,11 +29,6 @@ public class AnimaisController {
     @Autowired
     AnimaisRepository repository;
 
-//    @GetMapping
-//    public ResponseEntity<List<AnimaisJPA>> findAll() {
-//        List<AnimaisJPA> result = repository.findAll();
-//        return ResponseEntity.ok(result);
-//    }
     @GetMapping
     public ResponseEntity<Page<AnimaisJPA>> findAll(@PageableDefault(size = 20) Pageable pageable) {
         Page<AnimaisJPA> result = repository.findAll(pageable);
